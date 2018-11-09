@@ -1,0 +1,8 @@
+package com.example.consultants.week3daily4.UI.base;
+
+public interface BasePresenter<V extends BaseView> {
+
+    void attachView(V view);
+
+    void detachView();
+}
